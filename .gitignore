@@ -1,0 +1,15 @@
+# Neovim 临时文件
+*.swp
+*.swo
+*~
+
+# 备份与临时文件
+*.tmp
+*.bak
+
+# 本地历史与会话文件
+.netrwhist
+Session.vim
+
+# 系统文件
+.DS_Store
