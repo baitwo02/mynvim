@@ -60,14 +60,20 @@ require("catppuccin").setup({
     },
   },
   color_overrides = {},
-  custom_highlights = {},
+  custom_highlights = function(colors)
+    return {
+      BlinkCmpItemIdx = { fg = colors.mauve, style = { "bold" } },
+    }
+  end,
   default_integrations = true,
   auto_integrations = false,
   integrations = {
     cmp = true,
+    flash = true,
     gitsigns = true,
     nvimtree = true,
-    notify = false,
+    noice = true,
+    notify = true,
     mini = {
       enabled = true,
       indentscope_color = "",
