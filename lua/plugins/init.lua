@@ -3,7 +3,11 @@
 
 require("plugins.blink")
 
+require("plugins.autopairs")
+
 require("plugins.catppuccin")
+
+require("plugins.guess_indent")
 
 require("plugins.mini")
 

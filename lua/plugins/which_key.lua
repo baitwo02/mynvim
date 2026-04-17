@@ -17,6 +17,7 @@ require("which-key").setup({
     { "<leader>", group = "Leader" },
     { "<leader>a", group = "AI" },
     { "<leader>c", group = "Code" },
+    { "<leader>e", group = "Explorer" },
     { "<leader>r", group = "Rime" },
     { "<leader>s", group = "Search" },
     { "<leader>sn", group = "Noice" },
